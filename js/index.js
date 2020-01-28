@@ -8,7 +8,7 @@
  * https://flickity.metafizzy.co
  * Copyright 2015-2019 Metafizzy
  */
-
+if (typeof window !== 'undefined') {
 ( function( window, factory ) {
   // universal module definition
   /* jshint strict: false */
@@ -40,3 +40,4 @@
   /*jshint strict: false*/
   return Flickity;
 });
+}
